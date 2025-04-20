@@ -1,29 +1,59 @@
-# 2025 Python Projects
+# Python Lab
 
-This repository contains a series of hands-on Python exercises and mini-projects, organized throughout the year 2025. Each project is placed in its own numbered folder and is documented here.
+Welcome to the Python Lab!  
+This repository contains a growing collection of hands-on Python mini-projects, tools, and exercises, built to strengthen programming skills and explore various topics.
 
----
-
-## 📁 Project List
-
-- [01-word-counter](./01-word-counter)  
-  A basic word counting script using command-line arguments and file reading.
+Each project is organized into its own independent, modular folder for clarity and scalability.  
+The goal is to develop over 100 practical mini-projects across different areas.
 
 ---
 
-## 🧠 01 - Word Counter
+## 📚 Project List
 
-**Purpose:**  
-To learn how to invoke the Python interpreter, pass arguments to a script, read a file, and handle encoding.
+| # | Project Name | Description |
+|:-:|:-------------|:------------|
+| 1 | [Word Counter](word_counter_tool) | A script to count the number of words in a text file using command-line arguments. |
+| 2 | [Simple Calculator](calculator_tool) | A basic calculator that performs addition, subtraction, multiplication, and division. |
+| 3 | [String Toolkit](string_toolkit_tool) | Basic text processing utilities, including string analysis and slicing. |
+| 4 | [List Organizer](list_organizer_tool) | Allows dynamic list operations like appending, slicing, and copying based on user input. |
 
-**Topics Practiced:**
-- Using the Python interpreter from the terminal
-- Command-line argument parsing with `sys.argv`
-- Reading from text files
-- Basic string processing
-- UTF-8 file encoding
+---
 
-**How to Run:**
+## 🛠️ How to Use
 
-```bash
-python word_counter.py sample.txt
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/your-username/python-lab.git
+    ```
+
+2. Navigate into the project directory:
+
+    ```bash
+    cd python-lab
+    ```
+
+3. Run the main tool hub:
+
+    ```bash
+    python tool_hub.py
+    ```
+
+4. Select the mini-project you want to explore!
+
+---
+
+## 🚀 Future Plans
+
+- Add 100+ mini-projects covering:
+  - Algorithms and data structures
+  - Automation scripts
+  - Simple games
+  - Data processing tools
+  - Web scraping tools
+- Improve project modularity and architecture
+- Add unit tests for key projects
+
+---
+
+> ✨ Keep coding. Keep learning. Keep building! ✨
