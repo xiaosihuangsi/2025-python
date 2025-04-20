@@ -1,9 +1,10 @@
-# 🐍 Python Lab
+# Python Lab
 
-Welcome to **Python Lab** — an evolving collection of hands-on Python mini-projects, tools, and exercises to sharpen programming skills and explore various domains!
+Welcome to the Python Lab!  
+This repository contains a growing collection of hands-on Python mini-projects, tools, and exercises, built to strengthen programming skills and explore various topics.
 
 Each project is organized into its own independent, modular folder for clarity and scalability.  
-The long-term goal is to develop over 100+ practical mini-projects across different areas.
+The goal is to develop over 100 practical mini-projects across different areas.
 
 ---
 
@@ -16,8 +17,6 @@ The long-term goal is to develop over 100+ practical mini-projects across differ
 | 3 | [String Toolkit](string_toolkit_tool) | Basic text processing utilities, including string analysis and slicing. |
 | 4 | [List Organizer](list_organizer_tool) | Allows dynamic list operations like appending, slicing, and copying based on user input. |
 
-*(More mini-projects will continue to be added.)*
-
 ---
 
 ## 🛠️ How to Use
@@ -25,7 +24,7 @@ The long-term goal is to develop over 100+ practical mini-projects across differ
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/你的GitHub用户名/python-lab.git
+    git clone https://github.com/your-username/python-lab.git
     ```
 
 2. Navigate into the project directory:
@@ -34,15 +33,13 @@ The long-term goal is to develop over 100+ practical mini-projects across differ
     cd python-lab
     ```
 
-3. Make sure you have **Python 3.10+** installed.
-
-4. Run the main tool hub:
+3. Run the main tool hub:
 
     ```bash
     python tool_hub.py
     ```
 
-5. Select the mini-project you want to explore from the menu!
+4. Select the mini-project you want to explore!
 
 ---
 
@@ -55,14 +52,8 @@ The long-term goal is to develop over 100+ practical mini-projects across differ
   - Data processing tools
   - Web scraping tools
 - Improve project modularity and architecture
-- Implement **automatic menu generation** for the Tool Hub
 - Add unit tests for key projects
 
 ---
 
-## 🧠 Why This Lab?
-
-Because consistent practice builds extraordinary skills.  
-Keep coding. Keep learning. Keep building! ✨
-
----
+> ✨ Keep coding. Keep learning. Keep building! ✨
