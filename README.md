@@ -16,6 +16,8 @@ The goal is to develop over 100 practical mini-projects across different areas.
 | 2 | [Simple Calculator](calculator_tool) | A basic calculator that performs addition, subtraction, multiplication, and division. |
 | 3 | [String Toolkit](string_toolkit_tool) | Basic text processing utilities, including string analysis and slicing. |
 | 4 | [List Organizer](list_organizer_tool) | Allows dynamic list operations like appending, slicing, and copying based on user input. |
+| 5 | [Number Classifier](number_classifier_tool) | Classifies an integer input as negative, zero, single (1), or more. |
+
 
 ---
 
