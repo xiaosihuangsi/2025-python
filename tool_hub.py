@@ -4,6 +4,8 @@ from string_toolkit_tool.string_toolkit import main as string_toolkit_main
 from list_organizer_tool.list_organizer import main as list_organizer_main
 from number_classifier_tool.number_classifier import main as number_classifier_main
 from for_tool.for_practice import main as for_tool_main
+from range_tool.range_practice import main as range_tool_main
+
 
 
 
@@ -19,8 +21,9 @@ def main():
         print("5. Number Classifier")
         print("6. For Loop Practice")
 
-        
-        print("7. Exit")
+        print("7. Range Practice")
+        print("8. Exit")
+
         print("-----------------------------------")
 
         choice = input("Enter your choice (1-100): ")
@@ -37,11 +40,13 @@ def main():
             number_classifier_main()
         elif choice == '6':
             for_tool_main()
-
         elif choice == '7':
+            range_tool_main()
+        elif choice == '8':
             print("Goodbye!")
             break
 
+        
         else:
             print("\n❗ Invalid choice. Please select a valid option.")
 
