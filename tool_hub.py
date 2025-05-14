@@ -3,6 +3,8 @@ from calculator_tool.calculator import main as calculator_main
 from string_toolkit_tool.string_toolkit import main as string_toolkit_main
 from list_organizer_tool.list_organizer import main as list_organizer_main
 from number_classifier_tool.number_classifier import main as number_classifier_main
+from for_tool.for_practice import main as for_tool_main
+
 
 
 def main():
@@ -15,10 +17,13 @@ def main():
         print("3. String Toolkit")
         print("4. List Organizer")
         print("5. Number Classifier")
-        print("6. Exit")
+        print("6. For Loop Practice")
+
+        
+        print("7. Exit")
         print("-----------------------------------")
 
-        choice = input("Enter your choice (1/2/3/4/5): ")
+        choice = input("Enter your choice (1-100): ")
 
         if choice == '1':
             word_counter_main()
@@ -31,6 +36,9 @@ def main():
         elif choice == '5':
             number_classifier_main()
         elif choice == '6':
+            for_tool_main()
+
+        elif choice == '7':
             print("Goodbye!")
             break
 
