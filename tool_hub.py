@@ -6,6 +6,8 @@ from number_classifier_tool.number_classifier import main as number_classifier_m
 from for_tool.for_practice import main as for_tool_main
 from range_tool.range_practice import main as range_tool_main
 from break_continue_tool.break_continue import main as break_continue_main
+from loop_else_tool.loop_else import main as loop_else_main
+
 
 
 
@@ -22,10 +24,11 @@ def main():
         print("4. List Organizer")
         print("5. Number Classifier")
         print("6. For Loop Practice")
-
         print("7. Range Practice")
-        print("8. Exit")
+        print("8. Break & Continue Practice")
+        print("9. Loop-Else Prime Checker")
 
+        print("10. Exit")
         print("-----------------------------------")
 
         choice = input("Enter your choice (1-100): ")
@@ -46,8 +49,10 @@ def main():
             range_tool_main()
         elif choice == '8':
             break_continue_main()
-
         elif choice == '9':
+            loop_else_main()
+
+        elif choice == '10':
             print("Goodbye!")
             break
 
