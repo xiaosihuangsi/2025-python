@@ -19,6 +19,7 @@ The goal is to develop over 100 practical mini-projects across different areas.
 | 5 | [Number Classifier](number_classifier_tool) | Classifies an integer input as negative, zero, single (1), or more. |
 | 6 | [For Loop Practice](for_tool) | Demonstrates looping through lists and dictionaries with filtering examples. |
 | 7 | [Range Practice](range_tool) | Generate and explore number sequences using Python's range() function. |
+| 8 | [Break & Continue Practice](break_continue_tool) | Demo of break to exit loops early and continue to skip iterations. |
 
 
 ---

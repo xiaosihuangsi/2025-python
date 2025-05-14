@@ -5,6 +5,8 @@ from list_organizer_tool.list_organizer import main as list_organizer_main
 from number_classifier_tool.number_classifier import main as number_classifier_main
 from for_tool.for_practice import main as for_tool_main
 from range_tool.range_practice import main as range_tool_main
+from break_continue_tool.break_continue import main as break_continue_main
+
 
 
 
@@ -43,6 +45,9 @@ def main():
         elif choice == '7':
             range_tool_main()
         elif choice == '8':
+            break_continue_main()
+
+        elif choice == '9':
             print("Goodbye!")
             break
 
