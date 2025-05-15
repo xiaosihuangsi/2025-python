@@ -7,6 +7,8 @@ from for_tool.for_practice import main as for_tool_main
 from range_tool.range_practice import main as range_tool_main
 from break_continue_tool.break_continue import main as break_continue_main
 from loop_else_tool.loop_else import main as loop_else_main
+from pass_tool.pass_demo import main as pass_tool_main
+
 
 
 
@@ -27,8 +29,10 @@ def main():
         print("7. Range Practice")
         print("8. Break & Continue Practice")
         print("9. Loop-Else Prime Checker")
+        print("10. Pass Statement Demo")
 
-        print("10. Exit")
+
+        print("11. Exit")
         print("-----------------------------------")
 
         choice = input("Enter your choice (1-100): ")
@@ -51,8 +55,11 @@ def main():
             break_continue_main()
         elif choice == '9':
             loop_else_main()
-
         elif choice == '10':
+            pass_tool_main()
+
+
+        elif choice == '11':
             print("Goodbye!")
             break
 

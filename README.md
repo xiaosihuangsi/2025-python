@@ -21,6 +21,7 @@ The goal is to develop over 100 practical mini-projects across different areas.
 | 7 | [Range Practice](range_tool) | Generate and explore number sequences using Python's range() function. |
 | 8 | [Break & Continue Practice](break_continue_tool) | Demo of break to exit loops early and continue to skip iterations. |
 | 9 | [Loop-Else Prime Checker](loop_else_tool) | Demonstrates the use of else with loops to identify prime numbers. |
+| 10 | [Pass Statement Demo](pass_tool) | Demonstrates Python's pass statement as a placeholder in loops, classes, and functions. |
 
 
 ---
