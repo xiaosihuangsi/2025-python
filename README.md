@@ -69,7 +69,7 @@ mkdocs gh-deploy --clean
 
 ## 🚀 Future Plans
 
-- Add 100+ mini-projects covering:
+- Add mini-projects covering:
   - Algorithms and data structures
   - Automation scripts
   - Simple games
