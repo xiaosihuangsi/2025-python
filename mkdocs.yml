@@ -1,0 +1,27 @@
+
+site_name: Python Lab
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Projects:
+      - Word Counter: projects/word_counter.md
+      - Calculator: projects/calculator.md
+      - String Toolkit: projects/string_toolkit.md
+      - List Organizer: projects/list_organizer.md
+      - Number Classifier: projects/number_classifier.md
+      - For Loop: projects/for_loop.md
+      - Range: projects/range.md
+      - Break & Continue: projects/break_continue.md
+      - Loop Else: projects/loop_else.md
+      - Pass Statement: projects/pass_statement.md
+      - Match Statement: projects/match.md
+
+
+
+
+
+
+

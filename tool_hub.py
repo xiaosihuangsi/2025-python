@@ -38,7 +38,7 @@ def main():
         print("11. Match Statement Demo")
         print("12. Exit")
 
-        print("13. Exit")
+    
         print("-----------------------------------")
 
         choice = input("Enter your choice (1-100): ")
