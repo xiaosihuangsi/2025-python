@@ -6,6 +6,8 @@ This repository contains a growing collection of hands-on Python mini-projects, 
 Each project is organized into its own independent, modular folder for clarity and scalability.  
 The goal is to develop over 100 practical mini-projects across different areas.
 
+🌐 **Live Site:** [View the Python Lab Documentation Website](https://xiaosihuangsi.github.io/python-lab/)
+
 ---
 
 ## 📚 Project List
@@ -48,6 +50,20 @@ The goal is to develop over 100 practical mini-projects across different areas.
     ```
 
 4. Select the mini-project you want to explore!
+
+### Website Deployment
+
+```bash
+# Install dependencies
+pip install mkdocs mkdocs-material
+
+# Local development
+mkdocs serve
+
+# Production deployment
+mkdocs gh-deploy --clean
+```
+
 
 ---
 
