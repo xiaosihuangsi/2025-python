@@ -22,6 +22,7 @@ The goal is to develop over 100 practical mini-projects across different areas.
 | 8 | [Break & Continue Practice](break_continue_tool) | Demo of break to exit loops early and continue to skip iterations. |
 | 9 | [Loop-Else Prime Checker](loop_else_tool) | Demonstrates the use of else with loops to identify prime numbers. |
 | 10 | [Pass Statement Demo](pass_tool) | Demonstrates Python's pass statement as a placeholder in loops, classes, and functions. |
+| 11 | [Match Statement Demo](match_tool) | Demonstrates Python 3.10+ structural pattern matching. |
 
 
 ---

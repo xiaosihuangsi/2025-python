@@ -10,6 +10,8 @@ from range_tool.range_practice import main as range_tool_main
 from break_continue_tool.break_continue import main as break_continue_main
 from loop_else_tool.loop_else import main as loop_else_main
 from pass_tool.pass_demo import main as pass_tool_main
+from match_tool.match_tool import match_main
+
 
 def clear_screen():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -33,7 +35,10 @@ def main():
         print("8. Break & Continue Practice")
         print("9. Loop-Else Prime Checker")
         print("10. Pass Statement Demo")
-        print("11. Exit")
+        print("11. Match Statement Demo")
+        print("12. Exit")
+
+        print("13. Exit")
         print("-----------------------------------")
 
         choice = input("Enter your choice (1-100): ")
@@ -59,8 +64,11 @@ def main():
         elif choice == '10':
             pass_tool_main()
         elif choice == '11':
+            match_main()
+        elif choice == '12':
             print("Goodbye!")
             break
+
         else:
             print("\n❗ Invalid choice. Please select a valid option.")
 
