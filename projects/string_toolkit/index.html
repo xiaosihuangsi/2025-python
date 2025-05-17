@@ -352,9 +352,51 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#how-to-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Use
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
       Example
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Example">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#input" class="md-nav__link">
+    <span class="md-ellipsis">
+      Input
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#output" class="md-nav__link">
+    <span class="md-ellipsis">
+      Output
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-location" class="md-nav__link">
+    <span class="md-ellipsis">
+      File Location
     </span>
   </a>
   
@@ -587,9 +629,51 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#how-to-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Use
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
       Example
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Example">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#input" class="md-nav__link">
+    <span class="md-ellipsis">
+      Input
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#output" class="md-nav__link">
+    <span class="md-ellipsis">
+      Output
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-location" class="md-nav__link">
+    <span class="md-ellipsis">
+      File Location
     </span>
   </a>
   
@@ -612,8 +696,39 @@
 
 
 <h1 id="string-toolkit">String Toolkit</h1>
-<p>Analyzes strings, repeats them, extracts substrings, counts vowels, and identifies special characters.</p>
+<p>The <strong>String Toolkit</strong> allows users to interactively explore string content through analysis, slicing, repetition, and character inspection. It helps reinforce key Python string concepts like indexing, slicing, type checking, and input validation.</p>
+<hr />
+<h2 id="how-to-use">How to Use</h2>
+<p>When launched, the tool will:</p>
+<ol>
+<li>Ask for a text input from the user.</li>
+<li>Analyze the string:</li>
+<li>Show the first and last characters.</li>
+<li>Show the length of the string.</li>
+<li>Repeat the string multiple times.</li>
+<li>Ask for a substring range and extract it if valid.</li>
+<li>Count vowels and identify character types (letters, digits, alphanumerics, special characters).</li>
+</ol>
+<hr />
 <h2 id="example">Example</h2>
+<h3 id="input">Input</h3>
+<pre><code class="language-bash">Enter a text: Python3.10!
+How many times to repeat the text? (default 3): 2
+Enter start index for substring (default 1): 1
+Enter end index for substring (default 5): 5
+</code></pre>
+<h3 id="output">Output</h3>
+<pre><code class="language-bash">String Analysis:
+First character: P
+Last character: !
+Length of the text: 10
+Text repeated 2 times: Python3.10!Python3.10!
+Substring from index 1 to 5: ytho
+Vowel count (a, e, i, o, u): 1
+The text contains special characters.
+</code></pre>
+<h2 id="file-location">File Location</h2>
+<p>Path: <code>string_toolkit_tool/string_toolkit.py</code></p>
 
 
 
