@@ -8,7 +8,7 @@ def dict_loop_demo():
     users = {
         'Hans': 'active',
         'Éléonore': 'inactive',
-        '景太郎': 'active'
+        'Lulu': 'active'
     }
     print("\n👥 All users and statuses:")
     for user, status in users.items():
