@@ -67,7 +67,7 @@ mkdocs gh-deploy --clean
 
 ---
 
-## 🚀 Future Plans
+## Future Plans
 
 - Add mini-projects covering:
   - Algorithms and data structures
