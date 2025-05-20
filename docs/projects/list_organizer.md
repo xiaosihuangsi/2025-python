@@ -31,5 +31,5 @@ Copied list: [1, 2, 3, 4, 99]
 
 ## File Location
 ```bash
-Path: `list_organizer_tool/list_organizer.py
+Path: list_organizer_tool/list_organizer.py
 ```
