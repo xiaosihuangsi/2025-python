@@ -17,10 +17,10 @@ This is a great beginner exercise for conditional logic in Python.
 2. Enter any integer (e.g., -5, 0, 1, 42).
 3. Based on the value, the tool prints one of the following:
 
- - `"Negative changed to zero"`
- - `"Zero"`
- - `"Single"`
- - `"More"`
+    - `"Negative changed to zero"`
+    - `"Zero"`
+    - `"Single"`
+    - `"More"`
 
 ---
 
