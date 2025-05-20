@@ -398,9 +398,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#how-to-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Use
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
       Example
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-location" class="md-nav__link">
+    <span class="md-ellipsis">
+      File Location
     </span>
   </a>
   
@@ -587,9 +605,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#how-to-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Use
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#example" class="md-nav__link">
     <span class="md-ellipsis">
       Example
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#file-location" class="md-nav__link">
+    <span class="md-ellipsis">
+      File Location
     </span>
   </a>
   
@@ -612,8 +648,53 @@
 
 
 <h1 id="number-classifier-tool">Number Classifier Tool</h1>
-<p>Classifies an integer as negative, zero, one, or more.</p>
+<p>The <strong>Number Classifier Tool</strong> prompts the user for an integer and classifies the number as:</p>
+<ul>
+<li>Negative → reported as changed to zero  </li>
+<li>Zero  </li>
+<li>One (displayed as "Single")  </li>
+<li>Greater than one (displayed as "More")</li>
+</ul>
+<p>This is a great beginner exercise for conditional logic in Python.</p>
+<hr />
+<h2 id="how-to-use">How to Use</h2>
+<ol>
+<li>Run the tool.</li>
+<li>Enter any integer (e.g., -5, 0, 1, 42).</li>
+<li>
+<p>Based on the value, the tool prints one of the following:</p>
+</li>
+<li>
+<p><code>"Negative changed to zero"</code></p>
+</li>
+<li><code>"Zero"</code></li>
+<li><code>"Single"</code></li>
+<li><code>"More"</code></li>
+</ol>
+<hr />
 <h2 id="example">Example</h2>
+<pre><code class="language-bash">Please enter an integer: -3
+Negative changed to zero
+
+Please enter an integer: 0
+Zero
+
+Please enter an integer: 1
+Single
+
+Please enter an integer: 5
+More
+
+vbnet
+Copy
+Edit
+</code></pre>
+<p>If a non-integer is entered, the tool prints:</p>
+<pre><code class="language-bash">❌ Invalid input! Please enter a number.
+</code></pre>
+<h2 id="file-location">File Location</h2>
+<pre><code class="language-bash">Path: `number_classifier_tool/number_classifier.py`
+</code></pre>
 
 
 
