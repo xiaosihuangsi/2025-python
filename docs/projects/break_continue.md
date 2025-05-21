@@ -11,8 +11,8 @@ This tool demonstrates how the `break` and `continue` statements work in Python 
 
 1. Run the tool.
 2. Choose a demo:
-   - **1**: Find the first divisor of numbers from 2 to 9 (break demo).
-   - **2**: Filter and display even and odd numbers (continue demo).
+    **1**: Find the first divisor of numbers from 2 to 9 (break demo).
+    **2**: Filter and display even and odd numbers (continue demo).
 
 3. Observe the output for each control flow behavior.
 
