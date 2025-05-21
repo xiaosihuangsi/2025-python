@@ -8,14 +8,14 @@ The **Range Practice Tool** helps you understand how Python's built-in `range()`
 
 1. Run the tool.
 2. Enter:
-   - A **start** value (e.g., `0`)
-   - An **end** value (e.g., `10`)
-   - A **step** value (e.g., `2`)
+    A **start** value (e.g., `0`)
+    An **end** value (e.g., `10`)
+    A **step** value (e.g., `2`)
 
 3. The tool will:
-   - Generate a list using `range(start, end, step)`
-   - Display the sequence
-   - Show the sum and length of the sequence
+    Generate a list using `range(start, end, step)`
+    Display the sequence
+    Show the sum and length of the sequence
 
 ---
 
