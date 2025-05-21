@@ -10,12 +10,12 @@ It helps visualize how data structures like lists and dictionaries can be traver
 You’ll be prompted to choose one of two demos:
 
 1. **List Loop Demo**  
-   - Enter a comma-separated list of words.  
-   - The tool will display each word and its length.
+    Enter a comma-separated list of words.  
+    The tool will display each word and its length.
 
 2. **Dictionary Loop Demo**  
-   - A predefined dictionary of users and statuses will be shown.  
-   - The tool will then filter and print only the active users.
+    A predefined dictionary of users and statuses will be shown.  
+    The tool will then filter and print only the active users.
 
 ---
 
@@ -26,7 +26,7 @@ You’ll be prompted to choose one of two demos:
 ```bash
 Enter a list of words, separated by commas: apple, banana, cherry
 
-📋 Word and Lengths:
+Word and Lengths:
 - apple (5 letters)
 - banana (6 letters)
 - cherry (6 letters)
@@ -39,10 +39,10 @@ Enter a list of words, separated by commas: apple, banana, cherry
 - Éléonore: inactive
 - Lulu: active
 
-✅ Filtering active users:
+Filtering active users:
 - Hans
 - Lulu
-```bash
+```
 
 ## File Location
 ```bash
